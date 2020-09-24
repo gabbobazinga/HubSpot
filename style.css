@@ -10,6 +10,10 @@
   width: 60%;
 }
 
+.width-70p{
+  width: 70%;
+}
+
 .width-40p{
   width: 40%;
 }
@@ -114,6 +118,15 @@ header > hr,{
 }
 
 .bg-hero-head{
+  height: 800px;
+}
+
+.img-extender{
+  width: 40%;
+  height: 50px;
+}
+
+.bg-hero-head{
   background-image: url('img/hero-bg.svg');
   background-position: right bottom;
   background-size: 60%;
@@ -193,13 +206,18 @@ header > hr,{
   padding: 10px;
 }
 
-#b-get-free-2{
+#b-get-free-2, #b-learn{
   background-color: #FE775A;
   border: 1px solid #FE775A;
   border-radius: .1875rem;
   font-size: 25px;
   color: white;
-  padding: 30px;
+  padding: 25px;
+  margin-bottom: 20px;
+}
+
+.box-center > div{
+  text-align: center;
 }
 
 .login-bar .col-right i{
@@ -233,6 +251,35 @@ input[type="button"]:hover{
   margin-right: 10px;
 }
 
+.centering-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#cube{
+  width: 20%;
+}
+
+#book{
+  width: 50%;
+}
+
+.bg-features-row-top .box-top{
+  text-align: center;
+  color: #32495B;
+}
+
+.bg-features-row-top .box-top h1{
+  font-size: 40px;
+  margin: 40px 0;
+}
+
+.bg-features-row-top .box-top p{
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
 .features-row-bottom{
   background-color: #FFFFFF;
 }
@@ -246,9 +293,56 @@ input[type="button"]:hover{
   margin-right: 5%;
 }
 
-/* .features-row-top .box-top, .box-center, .box-bottom{
-  margin: 30px 0;
-} */
+.features-row-top .box-center ul li{
+  display: inline-block;
+  text-decoration: none;
+}
+
+.features-row-top .box-center .col:last-child{
+  color: #32495B;
+  text-align: left;
+}
+
+/* centrare testo verticalmente con h1 o p ??? */
+.features-row-top .box-center .col:last-child h2{
+  padding: 40px 0 20px 0;
+}
+
+.features-row-top .box-center .col:last-child h3{
+  padding: 20px 0;
+  display: inline-block;
+}
+
+.features-row-top .box-center .col:last-child p{
+  font-size: 20px;
+  padding: 20px 150px 20px 0;
+}
+
+.features-row-top .box-center .col:last-child li{
+  font-size: 20px;
+  padding: 20px 30px 20px 0;
+}
+
+.features-row-top .box-center .col:last-child li i{
+  color: #FE775A;
+  padding-right: 10px;
+}
+
+.bg-features-row-top .box-center{
+  margin: 2% 0 5% 0;
+}
+
+/* centrare hr a linea del h3 ??? */
+
+#hr-special{
+  display: inline-block;
+  width: 70%;
+  background-color: #A1A9AC;
+  border: none;
+  height: 3px;
+
+  margin-left: 40px;
+}
 
 footer .row .col{
   width: calc(60% / 4);
