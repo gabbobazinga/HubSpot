@@ -83,6 +83,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .container{
@@ -116,13 +117,28 @@ header > hr,{
   background-image: url('img/hero-bg.svg');
   background-position: right bottom;
   background-size: 60%;
+  /* background-size:cover; */
   background-repeat: no-repeat;
   background-color: #FFF2EE;
+  padding-top: 90px;
 }
 
 .bg-hero-head .row .col h1{
     color: #33475B;
-    font-size: 50px;
+    font-size: 75px;
+    margin-bottom: 40px;
+}
+
+.bg-hero-head .row .col > p{
+    color: #33475B;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.bg-hero-head .row .col p:last-child{
+    color: #33475B;
+    font-size: 18px;
+    margin-top: 40px;
 }
 
 .bg-login{
@@ -145,9 +161,6 @@ header > hr,{
   border-left: 0;
   border-right: 0;
   background-color: #AFEBE4;
-}
-.font-Avenir{
-  font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .login-bar div{
@@ -180,12 +193,22 @@ header > hr,{
   padding: 10px;
 }
 
+#b-get-free-2{
+  background-color: #FE775A;
+  border: 1px solid #FE775A;
+  border-radius: .1875rem;
+  font-size: 25px;
+  color: white;
+  padding: 30px;
+}
+
 .login-bar .col-right i{
   color: #0AA7BF;
 }
 
-input:hover{
+input[type="button"]:hover{
   cursor: pointer;
+  opacity: 0.5;
 }
 
 .bg-nav .row .col{
@@ -206,7 +229,7 @@ input:hover{
   display: inline-block;
   text-decoration: none;
   color: #32495B;
-  font-size: 20px;
+  font-size: 1vw;
   margin-right: 10px;
 }
 
