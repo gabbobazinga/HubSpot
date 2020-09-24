@@ -3,23 +3,43 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <title>Hubspot</title>
   </head>
   <body>
 
       <header>
         <div class="bg-login">
-          <div class="height-100 width-100p container"></div>
+          <div class="row login-bar height-100 container font-Avenir">
+            <div class="col">
+              <i class="fa fa-globe" aria-hidden="true"></i>
+              <span>English</span>
+              <i style="vertical-align: middle" class="fa fa-angle-down fa-2x" aria-hidden="true"></i>
+              <span>Contact Us</span>
+            </div>
+            <div class="col-right font-Avenir">
+              <i class="fa fa-search" aria-hidden="true"></i>
+              <input id="b-login" type="button" name="login in" value="Login In">
+              <input id="b-get-free" type="button" name="get-free" value="GetHubspotFree">
+            </div>
+          </div>
         </div>
+
         <hr>
         <nav>
           <div class="bg-nav">
-            <div class="row height-100 width-100p container">
-              <div class="col width-50p border-solid height-100">
-
+            <div class="row height-100 container">
+              <div class="col width-50p height-100">
+                <img src="img\hubspot-logo.png" alt="">
               </div>
-              <div class="col width-50p border-solid height-100">
-
+              <div class="col width-50p height-100 border-solid">
+                <ul class="list-menu col-right font-Avenir">
+                  <li><a href="#">Software <i style="vertical-align: middle" class="fa fa-angle-down fa-2x" aria-hidden="true"></i></a> </li>
+                  <li><a href="#">Pricing </a> </li>
+                  <li><a href="#">Resources <i style="vertical-align: middle" class="fa fa-angle-down fa-2x" aria-hidden="true"></i></a> </li>
+                  <li><a href="#">Partners <i style="vertical-align: middle" class="fa fa-angle-down fa-2x" aria-hidden="true"></i></a> </li>
+                  <li><a href="#">About <i style="vertical-align: middle" class="fa fa-angle-down fa-2x" aria-hidden="true"></i></a> </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -27,9 +47,10 @@
 
         <!-- slide iniziale -->
         <div class="bg-hero-head">
-          <div class="height-700 container">
+          <div class="row height-700 container">
             <div class="col width-50p border-solid height-500">
-
+              <h1>There's a better way to grow.</h1>
+              <p>Marketing, sales, and service software that helps your business grow without compromise. Because “good for the business” should also mean “good for the customer.”</p>
             </div>
           </div>
         </div>
