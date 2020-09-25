@@ -99,6 +99,11 @@
   margin: 0 auto;
 }
 
+.container-large{
+  width: 70%;
+  margin: 0 auto;
+}
+
 
 header > hr,{
   border: none;
@@ -414,6 +419,86 @@ input[type="button"]:hover{
   border: none;
   height: 2px;
   margin: 15% auto 10% auto ;
+}
+
+.bg-features-row-center{
+  position: relative;
+}
+
+.bg-features-row-center > .row{
+  text-align: center;
+  color: white;
+  padding: 3% 0;
+}
+
+.bg-features-row-center > .row h1{
+  font-size: 37px;
+  padding-bottom: 2%;
+}
+
+.bg-features-row-center > .row p{
+  font-size: 16px;
+  line-height: 180%;
+}
+
+.table-row{
+  height: 50%;
+  width: 70%;
+  position: absolute;
+  left: 50%;
+  top: 65%;
+  transform: translate(-50%, -50%);
+}
+
+.first-table-row, .second-table-row{
+  height: 50%;
+}
+
+.col-table-item{
+  position: relative;
+}
+
+/* def row item cell */
+.cell-item{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.cell-item .row{
+  margin: 5% 0;
+}
+
+.cell-item .row:first-child img{
+  max-width: 100%;
+  height: 35px;
+  margin-bottom: 8%;
+}
+
+.cell-item .row:nth-child(2){
+  font-size: 30px;
+}
+
+.cell-item .row:last-child{
+  font-size: 15px;
+  margin-top: 15%;
+}
+
+.first-table-row .col, .second-table-row .col{
+  width: calc(100% / 4);
+  height: 100%;
+  border-right: 1px solid white;
+}
+
+.first-table-row .col{
+  border-bottom: 1px solid white;
+}
+
+.first-table-row .col:last-child, .second-table-row .col:last-child{
+  border-right: none;
 }
 
 footer .row .col{
