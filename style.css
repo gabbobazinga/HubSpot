@@ -52,6 +52,10 @@
   height: 600px;
 }
 
+.height-650{
+  height: 650px;
+}
+
 .height-700{
   height: 700px;
 }
@@ -119,11 +123,17 @@ header > hr,{
 
 .bg-hero-head{
   height: 800px;
+  position: relative;
 }
 
 .img-extender{
   width: 40%;
-  height: 50px;
+  height: 3.8vw;
+  position: absolute;
+  border-top: 2.5px solid rgb(51,71,92);
+  background-color: #AFEBE4;
+  left: 0;
+  bottom: 0;
 }
 
 .bg-hero-head{
@@ -192,7 +202,7 @@ header > hr,{
   border-radius: .1875rem;
   font-size: 20px;
   color: #FE775A;
-  padding: 10px;
+  padding: 10px 20px;
   margin-right: 20px;
   margin-left: 20px;
 }
@@ -206,14 +216,23 @@ header > hr,{
   padding: 10px;
 }
 
-#b-get-free-2, #b-learn{
+#b-get-free-2, #b-learn, #b-learn-feat{
   background-color: #FE775A;
   border: 1px solid #FE775A;
   border-radius: .1875rem;
   font-size: 25px;
   color: white;
-  padding: 25px;
+  padding: 25px 50px;
   margin-bottom: 20px;
+}
+
+#b-learn-feat{
+  font-size: 18px;
+  padding: 15px 30px;
+  position: absolute;
+  bottom: -4%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .box-center > div{
@@ -330,6 +349,7 @@ input[type="button"]:hover{
 
 .bg-features-row-top .box-center{
   margin: 2% 0 5% 0;
+  box-shadow: 3px 3px 3px #E8EDF3, -3px -3px 3px #E8EDF3;
 }
 
 /* centrare hr a linea del h3 ??? */
@@ -340,8 +360,60 @@ input[type="button"]:hover{
   background-color: #A1A9AC;
   border: none;
   height: 3px;
-
   margin-left: 40px;
+}
+
+.bg-features-row-top{
+  padding-bottom: 2%;
+}
+
+.bg-features-row-top .features-row-top .box-bottom .col{
+  position: relative;
+  border-radius: .1875rem;
+  background-color: white;
+  box-shadow: 3px 3px 3px #E8EDF3, -3px -3px 3px #E8EDF3;
+}
+
+.bg-features-row-top .features-row-top .box-bottom .col img{
+  margin-bottom: 7%;
+}
+
+.bg-features-row-top .features-row-top .box-bottom .col img ~ *{
+  text-align: center;
+  margin: auto;
+  color: #32495B;
+}
+
+.bg-features-row-top .features-row-top .box-bottom .col > p{
+  font-size: 20px;
+  padding: 10%;
+  padding-bottom: 0;
+}
+/* dovevo dividere in più bocchi fissi la colonna!!! */
+.bg-features-row-top .features-row-top .box-bottom .col:last-child p{
+  font-size: 18.5px;
+  padding: 10%;
+  padding-bottom: 0;
+}
+
+.bg-features-row-top .features-row-top .box-bottom .col ul{
+  list-style-type: none;
+  text-align: left;
+  margin-top: 10%;
+}
+
+.bg-features-row-top .features-row-top .box-bottom .col ul li i{
+  padding-left: 10%;
+  padding-right: 5%;
+  color: #FE775A;
+}
+
+.bg-features-row-top .features-row-top .box-bottom .col hr{
+  width: 80%;
+  background-color: #A1A9AC;
+  border: none;
+  height: 2px;
+  margin: 15% auto 10% auto ;
 }
 
 footer .row .col{
