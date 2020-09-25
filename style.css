@@ -600,3 +600,23 @@ footer .list-lang-footer li{
 footer .list-lang-footer li:first-child{
   color: #CBD6D9;
 }
+
+footer .bg-footer > .row{
+  position: relative;
+}
+
+footer .footer-bottom div{
+  margin-top: 2%;
+  display: inline-block;
+  color: #CBD6E2;
+}
+
+footer .footer-bottom-right{
+  position: absolute;
+  right: 0;
+  bottom: 30%;
+}
+
+.footer-bottom-right > span{
+  margin-right: 25px;
+}
